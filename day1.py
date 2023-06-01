@@ -1,0 +1,10 @@
+#tip calculator 
+print("Welcome to the tip calculator.")
+tot= float (input("What was the total bill?"))
+tip= int(input("WHat percentage tip? 10,12,15?"))
+people= int(input("how many people"))
+m=  float(tot*(tip/100))
+tot= float(tot+m)
+final= float (tot/people)
+x= round(final, 2)
+print(f"everyone owes {x}")
