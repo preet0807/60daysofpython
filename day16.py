@@ -9,7 +9,8 @@ import sys
 # Complete the solve function below.
 def solve(s):
     capitalized_string=s.title()
-    return capitalized_string
+    
+    return (capitalized_string)
     
    
 
