@@ -8,9 +8,13 @@ import sys
 
 # Complete the solve function below.
 def solve(s):
-    capitalized_string=s.title()
-    
-    return (capitalized_string)
+       for item in s.split():
+            if item.isalpha():
+                capitalized_string= item.capitalize()
+                s.replace(item, capitalized_string)
+
+                
+       return (s)
     
    
 
